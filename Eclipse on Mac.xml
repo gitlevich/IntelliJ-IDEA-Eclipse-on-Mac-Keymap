@@ -22,9 +22,7 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="meta Z" />
   </action>
-  <action id="ActivateChangesToolWindow">
-    <keyboard-shortcut first-keystroke="alt 9" />
-  </action>
+  <action id="ActivateChangesToolWindow" />
   <action id="ActivateCommanderToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
@@ -62,7 +60,7 @@
     <keyboard-shortcut first-keystroke="meta alt I" />
   </action>
   <action id="Back">
-    <keyboard-shortcut first-keystroke="alt LEFT" />
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
   <action id="CallHierarchy">
     <keyboard-shortcut first-keystroke="meta alt H" />
@@ -313,17 +311,19 @@
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="END" />
-    <keyboard-shortcut first-keystroke="control RIGHT" />
+    <keyboard-shortcut first-keystroke="meta RIGHT" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="shift END" />
+    <keyboard-shortcut first-keystroke="shift meta RIGHT" />
   </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="HOME" />
-    <keyboard-shortcut first-keystroke="control LEFT" />
+    <keyboard-shortcut first-keystroke="meta LEFT" />
   </action>
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift HOME" />
+    <keyboard-shortcut first-keystroke="shift meta LEFT" />
   </action>
   <action id="EditorLookupDown">
     <keyboard-shortcut first-keystroke="meta DOWN" />
@@ -344,11 +344,10 @@
     <keyboard-shortcut first-keystroke="shift meta PAGE_UP" />
   </action>
   <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="meta RIGHT" />
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
   </action>
   <action id="EditorNextWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt RIGHT" />
-    <keyboard-shortcut first-keystroke="shift meta RIGHT" />
   </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="PAGE_DOWN" />
@@ -369,11 +368,10 @@
     <keyboard-shortcut first-keystroke="shift meta alt V" />
   </action>
   <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="meta LEFT" />
+    <keyboard-shortcut first-keystroke="alt LEFT" />
   </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt LEFT" />
-    <keyboard-shortcut first-keystroke="shift meta LEFT" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="RIGHT" />
@@ -513,7 +511,7 @@
     <keyboard-shortcut first-keystroke="shift alt F8" />
   </action>
   <action id="Forward">
-    <keyboard-shortcut first-keystroke="alt RIGHT" />
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
   <action id="FullyExpandTreeNode">
     <keyboard-shortcut first-keystroke="MULTIPLY" />
@@ -698,7 +696,6 @@
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta F6" />
-    <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="TAB" />
@@ -731,7 +728,6 @@
   <action id="PreviousOccurence" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta F6" />
-    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
   <action id="PreviousTemplateVariable">
     <keyboard-shortcut first-keystroke="shift TAB" />
@@ -785,12 +781,8 @@
   <action id="ResizeToolWindowDown">
     <keyboard-shortcut first-keystroke="shift meta DOWN" />
   </action>
-  <action id="ResizeToolWindowLeft">
-    <keyboard-shortcut first-keystroke="shift meta LEFT" />
-  </action>
-  <action id="ResizeToolWindowRight">
-    <keyboard-shortcut first-keystroke="shift meta RIGHT" />
-  </action>
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
   <action id="ResizeToolWindowUp">
     <keyboard-shortcut first-keystroke="shift meta UP" />
   </action>
@@ -852,7 +844,6 @@
   </action>
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="meta N" />
-    <mouse-shortcut keystroke="button3" />
     <keyboard-shortcut first-keystroke="shift alt S" />
     <keyboard-shortcut first-keystroke="meta F10" />
     <keyboard-shortcut first-keystroke="shift alt T" />

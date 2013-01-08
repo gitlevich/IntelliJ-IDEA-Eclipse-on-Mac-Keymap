@@ -2,4 +2,28 @@ Emulates the Eclipse keymap on Macs by replacing all instances of "Ctrl" with "â
 
 It's based on the Eclipse keymap IntelliJ IDEA ships with: http://git.jetbrains.org/?p=idea/community.git;a=blob_plain;f=platform/platform-resources/src/idea/Keymap_Eclipse.xml;hb=HEAD
 
+Fixes the Intellij right click context menu problem:
+http://stackoverflow.com/questions/5178850/intellij-right-click-context-menu-problems-in-ubuntu
+
+Changes of the following keys:
+
+Move Caret to Line End: from ctr + -> to cmd + ->
+Move Caret to Line End with Selection:
+Move Caret to Line Start from ctr + -> to cmd + ->
+Move Caret to Line Start with Selection: ctr + <- to cmd + <-
+
+Move Caret to Next Word: from cmd + -> to alt + ->
+Move Caret to Next Word with Selection:  remove shift + alt + ->
+Move Caret to Previous Word:   cmd + <- to alt + <-
+Move Caret to Previous Word with Selection: remove shift + alt + <-
+
+Navigate Back: alt + <- nach alt + cmd + <- 
+Navigate Forward: alt + -> nach alt + cmd + ->
+
+Editor Tabs Next Tab: removed alt+cmd<-
+Editor Tabs Previous Tab: removed alt+cmd->
+
+Active Tool Window, Resize, Strech to right: remove shift + cmd + ->
+Active Tool Window, Resize, Strech to left: shift + cmd + <-
+
 To install, type ./install.sh
