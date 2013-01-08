@@ -7,23 +7,23 @@ http://stackoverflow.com/questions/5178850/intellij-right-click-context-menu-pro
 
 Changes of the following keys:
 
-Move Caret to Line End: from ctr + -> to cmd + ->
+Move Caret to Line End: from ctr + -> to ⌘ + ->
 Move Caret to Line End with Selection:
-Move Caret to Line Start from ctr + -> to cmd + ->
-Move Caret to Line Start with Selection: ctr + <- to cmd + <-
+Move Caret to Line Start from ctr + -> to ⌘ + ->
+Move Caret to Line Start with Selection: ctr + <- to ⌘ + <-
 
-Move Caret to Next Word: from cmd + -> to alt + ->
+Move Caret to Next Word: from  ⌘ + -> to alt + ->
 Move Caret to Next Word with Selection:  remove shift + alt + ->
-Move Caret to Previous Word:   cmd + <- to alt + <-
+Move Caret to Previous Word:   ⌘ + <- to alt + <-
 Move Caret to Previous Word with Selection: remove shift + alt + <-
 
-Navigate Back: alt + <- nach alt + cmd + <- 
-Navigate Forward: alt + -> nach alt + cmd + ->
+Navigate Back: from + <- to alt +  ⌘ + <- 
+Navigate Forward: from + -> to alt +  ⌘ + ->
 
-Editor Tabs Next Tab: removed alt+cmd<-
-Editor Tabs Previous Tab: removed alt+cmd->
+Editor Tabs Next Tab: removed alt+ ⌘<-
+Editor Tabs Previous Tab: removed alt+ ⌘->
 
-Active Tool Window, Resize, Strech to right: remove shift + cmd + ->
-Active Tool Window, Resize, Strech to left: shift + cmd + <-
+Active Tool Window, Resize, Strech to right: remove shift + ⌘ + ->
+Active Tool Window, Resize, Strech to left: shift + ⌘ + <-
 
 To install, type ./install.sh
